@@ -39,4 +39,4 @@
 #include "krnl_cnn_layer1.h"
 #include "krnl_cnn.h"
 
-//#define ENABLE_DFX      // Uncomment this line out if you want to use DFX
+#define ENABLE_DFX      // Uncomment this line out if you want to use DFX

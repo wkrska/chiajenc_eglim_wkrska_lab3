@@ -167,6 +167,26 @@
         	
     </storageModule>
     	
-    <storageModule moduleId="refreshScope"/>
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="Emulation-HW">
+            			
+            <resource resourceType="PROJECT" workspacePath="/cnn_system_hw_link"/>
+            		
+        </configuration>
+        		
+        <configuration configurationName="Emulation-SW">
+            			
+            <resource resourceType="PROJECT" workspacePath="/cnn_system_hw_link"/>
+            		
+        </configuration>
+        		
+        <configuration configurationName="Hardware">
+            			
+            <resource resourceType="PROJECT" workspacePath="/cnn_system_hw_link"/>
+            		
+        </configuration>
+        	
+    </storageModule>
     
 </cproject>

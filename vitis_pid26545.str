@@ -1,0 +1,96 @@
+/*
+
+Xilinx Vitis v2021.1.0 (64-bit) [Major: 2021, Minor: 1]
+SW Build 3245906 on 2021-06-09-18:10:55
+
+Process ID (PID): 26545
+License: Customer
+
+Current time: 	Thu Nov 02 18:40:18 EDT 2023
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Red Hat Enterprise Linux Server release 7.9 (Maipo)
+OS Version: 3.10.0-1160.90.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 40
+
+Display: localhost:12.0
+Screen size: 1920x1080
+Available screens: 1
+Available disk space: 74 GB
+
+Java version: 	11.0.2 64-bit
+Java home: 	/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/tps/lnx64/jre11.0.2
+Java executable location: 	/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/tps/lnx64/javafx-sdk-11.0.2/lib:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/lib/lnx64.o/Default:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/lib/lnx64.o:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/tps/lnx64/jre11.0.2/lib/:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/tps/lnx64/jre11.0.2/lib//server:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/lib/lnx64.o:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/lib/lnx64.o/Default:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/lib/lnx64.o:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/tps/lnx64/python-3.8.3/lib:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/aietools/lib/lnx64.o:/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis
+
+User name: 	chiajenc
+User home directory: /afs/andrew.cmu.edu/usr5/chiajenc
+User working directory: /scratch/643_vitis_chiajenc/chiajenc_eglim_wkrska_lab3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis
+HDI_APPROOT: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1
+RDI_DATADIR: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/data
+RDI_BINDIR: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/bin
+
+Vitis preferences directory: /afs/andrew.cmu.edu/usr5/chiajenc/.Xilinx/Vitis/2021.1/
+Vitis workspace directory: /scratch/643_vitis_chiajenc/chiajenc_eglim_wkrska_lab3
+Vitis workspace log file location: /scratch/643_vitis_chiajenc/chiajenc_eglim_wkrska_lab3/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+OECORE_SDK_VERSION: 2021.1
+SDKTARGETSYSROOT: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/petalinux/2021.1/sysroots/cortexa72-cortexa53-xilinx-linux
+VITIS_ENV_SET: 1
+XILINX_DSP: 
+XILINX_HLS: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1
+XILINX_SDK: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1
+XILINX_VITIS: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1
+XILINX_VIVADO: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vivado/2021.1
+XILINX_VIVADO_HLS: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vivado/2021.1
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+activateView("Problems", "ProblemsView", "CTabItem.PROBLEMS");
+selectTreeTable("cnn_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarMenuButton("Build Hardware for project cnn_system", "cnn_system", "WorkbenchWindow", "ToolItem.BUILD_HARDWARE_FOR");
+selectCheckBoxMenuItem("3 Hardware", Boolean.FALSE, "Explorer", "WorkbenchWindow", "MenuItem.3_HARDWARE");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Problems", "0 items", "ProblemsView", "CTabItem.PROBLEMS");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+cancelFileDialog("Linux Rootfs Path", "SDXFileOpenDialog", "Button.CANCEL");
+activateView("Problems", "0 items", "ProblemsView", "CTabItem.PROBLEMS");
+cancelDirectoryDialog("Linux Sysroot Path", "SDXDirectoryDialog", "Button.CANCEL");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("lab3_kernels.h", "cnn_kernels/src/lab3_kernels.h", "CEditor", "CTabItem.LAB3_KERNELS_H");
+activateView("cnn_system_hw_link", "cnn_system_hw_link/cnn_system_hw_link.prj", "SDXSettingsEditor", "CTabItem.CNN_SYSTEM_HW_LINK");
+selectTreeTable("cnn_system.sprj", "cnn_system", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("cnn_system_hw_link", "cnn_system_hw_link/cnn_system_hw_link.prj", "SDXSettingsEditor", "CTabItem.CNN_SYSTEM_HW_LINK");
+selectTreeTable("cnn_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("main.cpp", "cnn_system > cnn > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("krnl_cnn_layer0.cpp", "cnn_system > cnn_kernels > src", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("src", "cnn_system > cnn_kernels", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("cnn_system", "cnn_system > cnn_kernels", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("krnl_cnn_layer0", "cnn_system > cnn_system_hw_link > Emulation-SW > binary_container_0", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectTreeTable("Emulation-SW", "cnn_system > cnn_system_hw_link", "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectTreeTable("cnn_system_hw_link", "cnn_system", "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectTreeTable("krnl_cnn_layer0", "cnn_system > cnn_kernels > Hardware", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Open HLS Project", "Assistant", "SDXAssistantView", "MenuItem.OPEN_HLS_PROJECT");
+selectButton("OK", "Launch Vitis HLS", "LaunchHLSDialog", "Button.OK");
