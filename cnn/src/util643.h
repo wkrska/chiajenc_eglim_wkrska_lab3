@@ -35,7 +35,7 @@
 
 #pragma once
 
-#define __VITIS_CL__    // Comment this line out if you are not using Vitis
+// #define __VITIS_CL__    // Comment this line out if you are not using Vitis
 
 // Fixed Width Integer Types
 typedef unsigned long uint64_t;

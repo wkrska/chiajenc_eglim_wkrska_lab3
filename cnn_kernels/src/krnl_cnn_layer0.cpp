@@ -193,15 +193,14 @@ void cnn0_blocked_kernel(cnndata_t BufI[TN_0][TR_0*S_WTS+K_WTS-S_WTS][TC_0*S_WTS
                         cnndata_t BufO[TM_0][TR_0][TC_0],
                         cnndata_t BufW[TM_0][TN_0][K_WTS][K_WTS]) {
   index_t to_b, ti_b, row_b, col_b;
+  index_t i, j;
 
+  Krow: for(i = 0; i < K_WTS; i++) {
+  Kcol: for(j = 0; j < K_WTS; j++) {
   Row: for(row_b = 0; row_b < TR_0; row_b++) {
     Col: for(col_b = 0; col_b < TC_0; col_b++) {
       To: for(to_b = 0; to_b < TM_0; to_b++) {
         Ti: for(ti_b = 0; ti_b < TN_0; ti_b++) {
-          index_t i, j;
-
-          Krow: for(i = 0; i < K_WTS; i++) {
-            Kcol: for(j = 0; j < K_WTS; j++) {
               BufO[to_b][row_b][col_b]+= BufW[to_b][ti_b][i][j]*
                 BufI[ti_b][S_WTS*row_b+i][S_WTS*col_b+j];
             }
